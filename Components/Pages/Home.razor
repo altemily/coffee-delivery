@@ -1,7 +1,127 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Coffee Delivery</PageTitle>
 
-<h1>Hello, world!</h1>
+<section class="hero-section">
+    <div class="hero-content">
+        <p class="eyebrow">Delivery de cafés especiais</p>
+        <h1>Encontre o café perfeito para qualquer hora do dia</h1>
+        <p class="hero-description">
+            Com o Coffee Delivery você recebe seu café onde estiver, com qualidade, rapidez e sabor.
+        </p>
 
-Welcome to your new app.
+        <div class="benefits-grid" aria-label="Benefícios do Coffee Delivery">
+            <div class="benefit-item">
+                <span class="benefit-icon cart" aria-hidden="true"></span>
+                <span>Compra simples e segura</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon timer" aria-hidden="true"></span>
+                <span>Entrega rápida</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon package" aria-hidden="true"></span>
+                <span>Embalagem mantém o café intacto</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon coffee" aria-hidden="true"></span>
+                <span>Café fresquinho até você</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+        <span class="hero-orbit orbit-one"></span>
+        <span class="hero-orbit orbit-two"></span>
+        <span class="hero-bean bean-one"></span>
+        <span class="hero-bean bean-two"></span>
+        <span class="hero-bean bean-three"></span>
+        <div class="hero-cup">
+            <span class="steam steam-one"></span>
+            <span class="steam steam-two"></span>
+            <span class="steam steam-three"></span>
+            <span class="cup-lid"></span>
+            <span class="cup-body"></span>
+            <span class="cup-sleeve">Coffee Delivery</span>
+        </div>
+    </div>
+</section>
+
+<section class="coffee-section" aria-labelledby="coffee-title">
+    <div class="section-heading">
+        <p class="eyebrow">Cardápio</p>
+        <h2 id="coffee-title">Nossos cafés</h2>
+    </div>
+
+    <div class="coffee-grid">
+        <article class="coffee-card">
+            <div class="coffee-image espresso" aria-hidden="true">
+                <span class="coffee-saucer"></span>
+                <span class="coffee-cup-top"></span>
+                <span class="coffee-drink"></span>
+            </div>
+            <div class="tag-list">
+                <span>Tradicional</span>
+            </div>
+            <h3>Expresso Tradicional</h3>
+            <p>O tradicional café feito com água quente e grãos moídos na hora.</p>
+            <div class="coffee-footer">
+                <strong>R$ 9,90</strong>
+                @* Futuramente este botão adicionará o café ao carrinho. *@
+                <button type="button">Adicionar</button>
+            </div>
+        </article>
+
+        <article class="coffee-card">
+            <div class="coffee-image americano" aria-hidden="true">
+                <span class="coffee-saucer"></span>
+                <span class="coffee-cup-top"></span>
+                <span class="coffee-drink"></span>
+            </div>
+            <div class="tag-list">
+                <span>Tradicional</span>
+            </div>
+            <h3>Americano</h3>
+            <p>Expresso diluído, menos intenso e perfeito para acompanhar o dia.</p>
+            <div class="coffee-footer">
+                <strong>R$ 10,90</strong>
+                <button type="button">Adicionar</button>
+            </div>
+        </article>
+
+        <article class="coffee-card">
+            <div class="coffee-image cappuccino" aria-hidden="true">
+                <span class="coffee-saucer"></span>
+                <span class="coffee-cup-top"></span>
+                <span class="coffee-drink"></span>
+            </div>
+            <div class="tag-list">
+                <span>Com leite</span>
+            </div>
+            <h3>Cappuccino</h3>
+            <p>Café com leite cremoso, espuma macia e um toque de chocolate.</p>
+            <div class="coffee-footer">
+                <strong>R$ 14,90</strong>
+                <button type="button">Adicionar</button>
+            </div>
+        </article>
+
+        <article class="coffee-card">
+            <div class="coffee-image latte" aria-hidden="true">
+                <span class="coffee-saucer"></span>
+                <span class="coffee-cup-top"></span>
+                <span class="coffee-drink"></span>
+            </div>
+            <div class="tag-list">
+                <span>Com leite</span>
+                <span>Suave</span>
+            </div>
+            <h3>Latte</h3>
+            <p>Uma combinação leve de café expresso e leite vaporizado.</p>
+            <div class="coffee-footer">
+                <strong>R$ 13,90</strong>
+                <button type="button">Adicionar</button>
+            </div>
+        </article>
+    </div>
+</section>
